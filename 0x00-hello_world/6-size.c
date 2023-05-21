@@ -7,15 +7,10 @@
 */
 int main(void)
 {
-char c;
-int i;
-long int li;
-long long int;
-float f;
-printf("size for a char : %ld \n", sizeof(c));
-printf("size for an int : %ld \n", sizeof(i));
-printf("size for a long int : %ld \n", sizeof(li));
-printf("size for a long long int : %ld \n", sizeof(lli));
-printf("size for a float : %ld \n", sizeof(f));
+printf("size for a char : %ld \n", sizeof(char));
+printf("size for an int : %ld \n", sizeof(int));
+printf("size for a long int : %ld \n", sizeof(long int));
+printf("size for a long long int : %ld \n", sizeof(long long int));
+printf("size for a float : %ld \n", sizeof(float));
 return (0);
 }
