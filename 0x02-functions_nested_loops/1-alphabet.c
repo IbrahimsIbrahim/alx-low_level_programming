@@ -3,10 +3,11 @@
  *
  * Return: Always 0.
  */
-int main(void)
+#include <stdio.h>
+int main() 
 {
-    int i;
-    for(i='a'; i<='z', i++)
-    putchar(i);
-    return (0);
+    char c;
+    for (c = 'a'; c <= 'z'; ++c)
+        printf("%c ", c);
+    return 0;
 }
