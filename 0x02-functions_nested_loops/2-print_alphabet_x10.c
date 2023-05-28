@@ -4,7 +4,7 @@
  * Description: It prints the alphabet in lowercase fallowed by a new line
  * Return: Nothing.
  */
-int maiin(){
+int main(){
 void print_alphabet(void)
 {
 	char i;
@@ -13,4 +13,3 @@ void print_alphabet(void)
 	_putchar('\n');
 }
  }
-
