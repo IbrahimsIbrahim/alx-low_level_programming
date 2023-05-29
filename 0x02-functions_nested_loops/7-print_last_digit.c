@@ -2,19 +2,18 @@
 #include "main.h"
 
 /**
- * print_last_digit 
- * 
- * Description: This function prints the last digit of a number
- * Return: last digit of number r
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
  */
-int print_last_digit(int r)
+int main(void)
 {
-	int n;
-	if (r < 0)
-		n = -1 * (r % 10);
-	else
-		n = r % 10;
+  int r;
 
-	_putchar((n % 10) + '0');
-	return (n % 10);
+  print_last_digit(98);
+  print_last_digit(0);
+  r = print_last_digit(-1024);
+  _putchar('0' + r);
+  _putchar('\n');
+  return (0);
 }
