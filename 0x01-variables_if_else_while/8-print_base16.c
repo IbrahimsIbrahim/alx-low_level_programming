@@ -10,13 +10,13 @@
 
 int main(void)
 {
-	int c;
-	char lowerCase;
+	int d;
+	char low;
 
-	for (c = '0'; c <= '9'; c++)
+	for (d = '0'; d <= '9'; d++)
 		putchar(d);
-	for (lowerCase = 'a'; lowerCase <= 'f'; lowerCase++)
-		putchar(lowerCase);
+	for (low = 'a'; low <= 'f'; low++)
+		putchar(low);
 	putchar('\n');
 
 	return (0);
