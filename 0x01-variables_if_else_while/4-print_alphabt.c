@@ -10,14 +10,15 @@
 
 int main(void)
 {
-	char lowCase;
-    char e = 'e';
-	char q = 'q';
+	char low, e, q;
 
-	for (lowCase = 'a'; lowCase <= 'z'; lowCase++)
+	e = 'e';
+	q = 'q';
+
+	for (low = 'a'; low <= 'z'; low++)
 	{
-		if (lowCase != e && lowCase != q)
-			putchar(lowCase);
+		if (low != e && low != q)
+			putchar(low);
 	}
 	putchar('\n');
 
